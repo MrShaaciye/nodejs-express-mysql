@@ -1,0 +1,27 @@
+{
+	"name": "node-expressb",
+	"version": "1.0.0",
+	"description": "Nodejs, Express, MySQL",
+	"main": "server.jsx",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"start": "node server.jsx",
+		"dev": "nodemon server.jsx"
+	},
+	"keywords": [
+		"Nodejs",
+		"Express",
+		"MySQL"
+	],
+	"author": "Shaiye",
+	"license": "ISC",
+	"dependencies": {
+		"cors": "^2.8.5",
+		"express": "^4.17.3",
+		"moment": "^2.29.1",
+		"mysql": "^2.18.1"
+	},
+	"devDependencies": {
+		"nodemon": "^2.0.15"
+	}
+}
